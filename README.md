@@ -2,7 +2,7 @@
 
 Hi, I'm **Ayush Nandi** ([@ayushnandi718-dev](https://github.com/ayushnandi718-dev)), also known as **rva.creates**. This repository is a shout-out board for every contribution I've made to **other people's** public repositories — authored pull requests (merged, in review, or closed), code reviews on other people's PRs, and issues I reported. My own projects are intentionally not listed here.
 
-**Snapshot:** 2026-11-24 · **33 authored pull requests + 3 reviews + 5 issues** · **22 external repositories** · 14 merged · 13 open · 6 closed without merge
+**Snapshot:** 2026-11-24 · **34 authored pull requests + 3 reviews + 5 issues** · **23 external repositories** · 14 merged · 14 open · 6 closed without merge
 
 > Entries are added manually and show their real status — nothing here is generated automatically. Contributor-credit checks are in [AUDIT.md](AUDIT.md).
 
@@ -50,7 +50,7 @@ For OrbitDine I shipped the full Next.js frontend (marketing, dashboard, auth, a
 | [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) | [#127060](https://github.com/firstcontributions/first-contributions/pull/127060) | Added my name to `Contributors.md` — my first open-source contribution. | 2026-10-21 |
 | [refined-github/refined-github](https://github.com/refined-github/refined-github) | [#9788](https://github.com/refined-github/refined-github/pull/9788) | Replaced outdated `.Layout-sidebar` class selectors. | 2026-07-10 |
 
-## Open contributions — in review (13)
+## Open contributions — in review (14)
 
 | Repository | PR | What I did | Status |
 | --- | --- | --- | --- |
@@ -59,6 +59,7 @@ For OrbitDine I shipped the full Next.js frontend (marketing, dashboard, auth, a
 | [e2b-dev/fragments](https://github.com/e2b-dev/fragments) | [#233](https://github.com/e2b-dev/fragments/pull/233) | Fix race condition in sandbox multi-file writes. | Open — awaiting review. |
 | [GDGAhmedabad/Awesome-Learning-Resources](https://github.com/GDGAhmedabad/Awesome-Learning-Resources) | [#407](https://github.com/GDGAhmedabad/Awesome-Learning-Resources/pull/407) | Added "The Rust Programming Language" official book. | Open — no maintainer feedback yet. |
 | [lauragift21/awesome-learning-resources](https://github.com/lauragift21/awesome-learning-resources) | [#244](https://github.com/lauragift21/awesome-learning-resources/pull/244) | Added official Go documentation to Golang resources. | Open — no maintainer feedback yet. |
+| [matthiasn/talk-transcripts](https://github.com/matthiasn/talk-transcripts) | [#122](https://github.com/matthiasn/talk-transcripts/pull/122) | Added a transcript of Stuart Sierra's *Thinking In Data* and linked it from the speaker index, closing issue #98. | Open — awaiting review; transcript generated from the talk's auto-generated captions because InfoQ has no public transcript text. |
 | [nteract/papermill](https://github.com/nteract/papermill) | [#895](https://github.com/nteract/papermill/pull/895) | Added citation instructions for academic papers. | Open — awaiting review. |
 | [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | [#24087](https://github.com/PrefectHQ/prefect/pull/24087) | RFC-correct `Retry-After` handling in concurrency slot acquisition. | Open — all checks green (159 success, 4 skipped); awaiting maintainer review. |
 | [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | [#11115](https://github.com/shadcn-ui/ui/pull/11115) | Sidebar: exclude Shift and Alt modifiers from keyboard shortcut. | Open — awaiting review. |
@@ -67,7 +68,7 @@ For OrbitDine I shipped the full Next.js frontend (marketing, dashboard, auth, a
 | [slvDev/esp32-ai](https://github.com/slvDev/esp32-ai) | [#11](https://github.com/slvDev/esp32-ai/pull/11), [#12](https://github.com/slvDev/esp32-ai/pull/12) | Verified model artifact downloader + gitignore docs; end-to-end reproducibility CI. | Open — no maintainer feedback yet. |
 | [SoterCare/awesome-student-resources](https://github.com/SoterCare/awesome-student-resources) | [#2](https://github.com/SoterCare/awesome-student-resources/pull/2) | Added Exercism to interview preparation. | Open — one-time review request posted 2026-11-24. |
 
-One-time review requests were posted on 2026-11-24 on the eight open PRs that had no maintainer feedback (the awesome-list PRs, LeetHub #255, esp32-ai #11/#12).
+One-time review requests were posted on 2026-11-24 on the eight open PRs that had no maintainer feedback (the awesome-list PRs, LeetHub #255, esp32-ai #11/#12). Talk-transcripts #122 was not pinged separately: it directly fulfills the issue I claimed in #98.
 
 ## Closed without merge (6)
 
