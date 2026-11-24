@@ -1,8 +1,8 @@
 # My Open-Source Contributions — rva.creates
 
-Hi, I'm **Ayush Nandi** ([@ayushnandi718-dev](https://github.com/ayushnandi718-dev)), also known as **rva.creates**. This repository is a living shout-out board for the work I've shipped in public repositories, what each change actually did, and whether maintainers have credited me for it.
+Hi, I'm **Ayush Nandi** ([@ayushnandi718-dev](https://github.com/ayushnandi718-dev)), also known as **rva.creates**. This repository is a living shout-out board for the work I've shipped in **other people's** public repositories, what each change actually did, and whether maintainers have credited me for it. My own projects are intentionally not listed here.
 
-**Snapshot:** 2026-11-24 · **22 merged pull requests** · **9 repositories** · **14 PRs in other people's projects**
+**Snapshot:** 2026-11-24 · **14 merged pull requests** · **7 external repositories**
 
 > I only ask for contributor credit after checking a repo's contributor list first. The exact list, evidence and pending requests are in [AUDIT.md](AUDIT.md) and refreshed automatically every week.
 
@@ -36,9 +36,11 @@ Concurrency slot acquisition could raise `ValueError`/`KeyError` on legal `Retry
 
 [PR #24087](https://github.com/PrefectHQ/prefect/pull/24087) · Type Checks and Pre-commit checks green; one unrelated timing-sensitive test flaked in CI, rerun requested.
 
-### Rebuilding a frontend and hardening a smart-home app
+### Rebuilding a frontend — OrbitDine #1–#4
 
-For OrbitDine I shipped the full Next.js frontend (marketing, dashboard, auth, admin, customer portal), removed the old backend, and fixed the production build by adding the missing Capacitor packages. In my own Home Assistant app I expanded Display Studio, added Android/Web scaffolds and a tile dashboard, then completed two security batches: profile-scoped AI authorization, atomic PIN handling, loopback-only host parsing, and ownership checks for stale AI completions.
+For OrbitDine I shipped the full Next.js frontend (marketing, dashboard, auth, admin, customer portal), removed the old backend, and fixed the production build by adding the missing Capacitor packages.
+
+[PRs #1–#4](https://github.com/shaurya-crypto/OrbitDine/pull/4)
 
 ---
 
@@ -49,12 +51,10 @@ For OrbitDine I shipped the full Next.js frontend (marketing, dashboard, auth, a
 | [abhi478jeetur-rgb/env-saaf](https://github.com/abhi478jeetur-rgb/env-saaf) | [#330](https://github.com/abhi478jeetur-rgb/env-saaf/pull/330), [#331](https://github.com/abhi478jeetur-rgb/env-saaf/pull/331), [#332](https://github.com/abhi478jeetur-rgb/env-saaf/pull/332) | Fixed per-item array `choices`; added JSON Schema meta-tests; exposed structured `{ key, message }` error details without changing output. | 2026-11-24 |
 | [TickerNet/TickerNet](https://github.com/TickerNet/TickerNet) | [#22](https://github.com/TickerNet/TickerNet/pull/22), [#24](https://github.com/TickerNet/TickerNet/pull/24), [#43](https://github.com/TickerNet/TickerNet/pull/43) | Rewrote the Dashboard package README (install, setup, every public builder member, correct auth docs); completed EF Core and Utilities READMEs; added accessible labels to all icon-only dashboard buttons and an AST regression test. | 2026-11-24 |
 | [KEX-03/taskflow](https://github.com/KEX-03/taskflow) | [#109](https://github.com/KEX-03/taskflow/pull/109) | Fixed expired-session handling: single logout/toast, redirect, stale-token guard, login/signup exclusions. | 2026-11-24 |
-| [ayushnandi718-dev/Home_assistant](https://github.com/ayushnandi718-dev/Home_assistant) | [#1](https://github.com/ayushnandi718-dev/Home_assistant/pull/1)–[#6](https://github.com/ayushnandi718-dev/Home_assistant/pull/6) | Display Studio expansion, firmware workspace, open-source docs, Android/Web platforms, tile dashboard, and two security-hardening batches. | 2026-11-20 → 23 |
 | [shaurya-crypto/OrbitDine](https://github.com/shaurya-crypto/OrbitDine) | [#1](https://github.com/shaurya-crypto/OrbitDine/pull/1)–[#4](https://github.com/shaurya-crypto/OrbitDine/pull/4) | Replaced the web app with the full Next.js frontend, removed the old backend, and fixed the production build with Capacitor packages. | 2026-08-07 → 08 |
 | [0ex/more-awesome](https://github.com/0ex/more-awesome) | [#419](https://github.com/0ex/more-awesome/pull/419) | Added a System Design entry under Back-End Development linking to the system-design-primer. | 2026-10-24 |
 | [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) | [#127060](https://github.com/firstcontributions/first-contributions/pull/127060) | Added my name to `Contributors.md` — my first open-source contribution. | 2026-10-21 |
 | [refined-github/refined-github](https://github.com/refined-github/refined-github) | [#9788](https://github.com/refined-github/refined-github/pull/9788) | Replaced outdated `.Layout-sidebar` class selectors. | 2026-07-10 |
-| [ayushnandi718-dev/carbonmind-ai](https://github.com/ayushnandi718-dev/carbonmind-ai) | [#2](https://github.com/ayushnandi718-dev/carbonmind-ai/pull/2), [#3](https://github.com/ayushnandi718-dev/carbonmind-ai/pull/3) | README cleanup and `.gitignore` update. | 2026-07-02 |
 
 ## Currently in flight
 
@@ -74,7 +74,6 @@ For OrbitDine I shipped the full Next.js frontend (marketing, dashboard, auth, a
 | 0ex/more-awesome | ⏳ Requested | [Credit request](https://github.com/0ex/more-awesome/pull/419#issuecomment-7124532308). |
 | refined-github/refined-github | ⏳ Asked | [Polling comment](https://github.com/refined-github/refined-github/pull/9788#issuecomment-7124532326). |
 | PrefectHQ/prefect | — | No contributor list; GitHub's contributor graph will record the merged PR. |
-| My own repos | — | No credit request needed. |
 
 ## Keeping an eye on it
 

@@ -54,7 +54,14 @@ async function main() {
   const search = await get(
     `https://api.github.com/search/issues?q=${query}&per_page=100&sort=updated`,
   );
-  const prs = (search?.items ?? []).filter((item) => item.pull_request && item.repository_url);
+  // Only list contributions to repositories owned by other users.
+  const prs = (search?.items ?? []).filter((item) => {
+    if (!item.pull_request || !item.repository_url) return false;
+    const owner = item.repository_url
+      .replace('https://api.github.com/repos/', '')
+      .split('/')[0];
+    return owner.toLowerCase() !== HANDLE.toLowerCase();
+  });
 
   const byRepo = new Map();
   for (const pr of prs) {
@@ -97,6 +104,7 @@ async function main() {
   const body = `# Contribution credit audit
 
 Generated ${generated} from the GitHub API for [@${HANDLE}](https://github.com/${HANDLE}).
+Only repositories owned by other users are listed — my own projects are intentionally excluded.
 This is a heuristic check of common credit files in each repository root; a "✅" means one of the
 files contains my handle or name. A repo with no credit file is not necessarily refusing credit —
 GitHub's own contributors graph still records merged commits.
