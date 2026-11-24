@@ -1,8 +1,8 @@
 # My Open-Source Contributions — rva.creates
 
-Hi, I'm **Ayush Nandi** ([@ayushnandi718-dev](https://github.com/ayushnandi718-dev)), also known as **rva.creates**. This repository is a shout-out board for every contribution I've made to **other people's** public repositories — merged, in review, or closed. My own projects are intentionally not listed here.
+Hi, I'm **Ayush Nandi** ([@ayushnandi718-dev](https://github.com/ayushnandi718-dev)), also known as **rva.creates**. This repository is a shout-out board for every contribution I've made to **other people's** public repositories — authored pull requests (merged, in review, or closed) and code reviews on other people's PRs. My own projects are intentionally not listed here.
 
-**Snapshot:** 2026-11-24 · **33 pull requests** · **21 external repositories** · 14 merged · 13 open · 6 closed without merge
+**Snapshot:** 2026-11-24 · **33 authored pull requests + 3 reviews** · **21 external repositories** · 14 merged · 13 open · 6 closed without merge
 
 > Entries are added manually and show their real status — nothing here is generated automatically. Contributor-credit checks are in [AUDIT.md](AUDIT.md).
 
@@ -78,6 +78,16 @@ One-time review requests were posted on 2026-11-24 on the eight open PRs that ha
 | [medusajs/medusa](https://github.com/medusajs/medusa) | [#17401](https://github.com/medusajs/medusa/pull/17401) | Gift card creation in comma-decimal locales. | Guardrail bot closed it; the new issue [#17977](https://github.com/medusajs/medusa/issues/17977) was auto-flagged for the bot's own fix, so it can't be assigned to me. Maintainer pinged. |
 | [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | [#23519](https://github.com/PrefectHQ/prefect/pull/23519) | Automation delete-all CLI change. | Superseded — equivalent fix merged in #23521. |
 | [tldr-pages/tldr](https://github.com/tldr-pages/tldr) | [#23099](https://github.com/tldr-pages/tldr/pull/23099), [#23100](https://github.com/tldr-pages/tldr/pull/23100) | Added `net` pages. | CLA not signed. |
+
+## Reviews on other people's PRs (3)
+
+These are not my PRs — I reviewed them. Listed for completeness because the work was done in someone else's repository.
+
+| Repository | PR | My review | Date |
+| --- | --- | --- | --- |
+| [nteract/papermill](https://github.com/nteract/papermill) | [#865](https://github.com/nteract/papermill/pull/865) (by Br1an67) | ✅ Approved — nbformat minimum bump for NumPy 2.0. | 2026-07-08 |
+| [nteract/papermill](https://github.com/nteract/papermill) | [#890](https://github.com/nteract/papermill/pull/890) (by dhruvatr) | ✅ Approved — grammar fix in stale-PR notification. | 2026-07-08 |
+| [nteract/papermill](https://github.com/nteract/papermill) | [#892](https://github.com/nteract/papermill/pull/892) (by paranoa233) | 💬 Commented — copying parameter cell metadata. | 2026-07-08 |
 
 ---
 

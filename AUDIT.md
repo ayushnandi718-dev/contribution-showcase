@@ -2,7 +2,7 @@
 
 Manually maintained by [@ayushnandi718-dev](https://github.com/ayushnandi718-dev). Last updated 2026-11-24.
 
-Covers all 33 contributions to repositories owned by other users — my own projects are intentionally excluded. The full "what I did" write-up is in [README.md](README.md).
+Covers all 33 authored PRs plus 3 reviews in repositories owned by other users — my own projects are intentionally excluded. The full "what I did" write-up is in [README.md](README.md).
 
 ## Summary
 
@@ -11,7 +11,10 @@ Covers all 33 contributions to repositories owned by other users — my own proj
 | Merged | 14 | 7 |
 | Open / in review | 13 | 12 |
 | Closed without merge | 6 | 5 |
-| **Total** | **33** | **21** |
+| Reviews on others' PRs | 3 | 1 |
+| **Total** | **36** | **21** |
+
+The "Involves me" view also shows 3 PRs that are excluded by design: [TickerNet #41](https://github.com/TickerNet/TickerNet/pull/41) (maintainer's PR that credited me — used as evidence below, not my contribution) and two PRs by other contributors in my own repos (`TO-DO-LIST#1`, `Ayush-Nandi#2`).
 
 ## Credit status for merged work
 
@@ -20,7 +23,7 @@ A "✅" means the repository's contributor/credit files contain my handle or nam
 | Repository | Merged PRs | Credit status | Evidence |
 | --- | --- | --- | --- |
 | [abhi478jeetur-rgb/env-saaf](https://github.com/abhi478jeetur-rgb/env-saaf) | #330, #331, #332 | ✅ Confirmed, queued | [Maintainer confirmation](https://github.com/abhi478jeetur-rgb/env-saaf/pull/332#issuecomment-7124877202) — all three PRs merged and counted; README list updated in batches, my name queued. |
-| [TickerNet/TickerNet](https://github.com/TickerNet/TickerNet) | #22, #24, #43 | ✅ Listed | [`CONTRIBUTORS.md`](https://github.com/TickerNet/TickerNet/blob/main/CONTRIBUTORS.md) names `rva.creates (@ayushnandi718-dev)`. |
+| [TickerNet/TickerNet](https://github.com/TickerNet/TickerNet) | #22, #24, #43 | ✅ Listed | [#41](https://github.com/TickerNet/TickerNet/pull/41) added `rva.creates (@ayushnandi718-dev)` to [`CONTRIBUTORS.md`](https://github.com/TickerNet/TickerNet/blob/main/CONTRIBUTORS.md). |
 | [KEX-03/taskflow](https://github.com/KEX-03/taskflow) | #109 | ✅ Credited | [`CHANGELOG.md`](https://github.com/KEX-03/taskflow/blob/main/CHANGELOG.md) thanks `@ayushnandi718-dev`; maintainer confirmed no separate contributor file is kept. |
 | [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) | #127060 | ✅ Listed | [`Contributors.md`](https://github.com/firstcontributions/first-contributions/blob/main/Contributors.md) entry added by #127060. |
 | [shaurya-crypto/OrbitDine](https://github.com/shaurya-crypto/OrbitDine) | #1–#4 | ⏳ Requested | [Credit request](https://github.com/shaurya-crypto/OrbitDine/pull/4#issuecomment-7124532268) — no maintainer response yet. |
