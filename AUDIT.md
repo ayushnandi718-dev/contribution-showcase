@@ -15,7 +15,7 @@ Covers all 33 authored PRs plus 3 reviews in repositories owned by other users �
 | Issues opened in others' repos | 5 | 3 |
 | **Total** | **41** | **22** |
 
-The 5 issues authored in other people's repos are: medusa [#17977](https://github.com/medusajs/medusa/issues/17977) (open, blocked by bot automation), facebook/react [#36996](https://github.com/facebook/react/issues/36996) and [#36997](https://github.com/facebook/react/issues/36997) (closed as stale/unconfirmed), and tldr [#23101](https://github.com/tldr-pages/tldr/issues/23101) and [#23102](https://github.com/tldr-pages/tldr/issues/23102) (closed page requests). No follow-up is possible on the closed ones; medusa is documented below.
+The 5 issues authored in other people's repos are: medusa [#17977](https://github.com/medusajs/medusa/issues/17977) (closed after bot PR [#17978](https://github.com/medusajs/medusa/pull/17978) merged), facebook/react [#36996](https://github.com/facebook/react/issues/36996) and [#36997](https://github.com/facebook/react/issues/36997) (closed as stale/unconfirmed), and tldr [#23101](https://github.com/tldr-pages/tldr/issues/23101) and [#23102](https://github.com/tldr-pages/tldr/issues/23102) (closed page requests). No follow-up is possible on the closed ones; medusa is documented below.
 
 The "Involves me" view also shows 3 PRs that are excluded by design: [TickerNet #41](https://github.com/TickerNet/TickerNet/pull/41) (maintainer's PR that credited me — used as evidence below, not my contribution) and two PRs by other contributors in my own repos (`TO-DO-LIST#1`, `Ayush-Nandi#2`).
 
@@ -37,7 +37,7 @@ A "✅" means the repository's contributor/credit files contain my handle or nam
 
 | Repository | PR | Blocker |
 | --- | --- | --- |
-| [medusajs/medusa](https://github.com/medusajs/medusa) | #17401 | Guardrail bot closed it for a missing linked issue. I opened [#17977](https://github.com/medusajs/medusa/issues/17977), asked for assignment and relinked the PR, but the bot flagged the issue for its own automatic fix; those issues are never assigned to contributors. [Final maintainer ping](https://github.com/medusajs/medusa/pull/17401#issuecomment-7125287705) posted. |
+| [medusajs/medusa](https://github.com/medusajs/medusa) | #17401 | Guardrail bot closed it for a missing linked issue. I opened [#17977](https://github.com/medusajs/medusa/issues/17977), asked for assignment and relinked the PR, but the bot flagged the issue for its own automatic fix; those issues are never assigned to contributors. [Final maintainer ping](https://github.com/medusajs/medusa/pull/17401#issuecomment-7125287705) posted. The issue was [closed by `shahednasser`](https://github.com/medusajs/medusa/issues/17977#event-37113506776) at 2026-11-24T09:51:44Z after bot PR [#17978](https://github.com/medusajs/medusa/pull/17978) merged; #17401 remains closed/not merged. |
 | [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | #24087 | No code blocker: the unrelated flaky `TaskRunWaiter` timeout did not recur after the branch retrigger. All 163 checks are green (159 success, 4 skipped); awaiting maintainer review only. [Final CI update](https://github.com/PrefectHQ/prefect/pull/24087#issuecomment-7126143033). |
 | [academic/awesome-datascience](https://github.com/academic/awesome-datascience) | #736 | Maintainer requires a $1 monthly tip for the paid course. |
 | [tldr-pages/tldr](https://github.com/tldr-pages/tldr) | #23099, #23100 | CLA not signed. |

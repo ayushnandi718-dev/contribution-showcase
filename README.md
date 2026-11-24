@@ -75,7 +75,7 @@ One-time review requests were posted on 2026-11-24 on the eight open PRs that ha
 | --- | --- | --- | --- |
 | [academic/awesome-datascience](https://github.com/academic/awesome-datascience) | [#736](https://github.com/academic/awesome-datascience/pull/736) | Added Made With ML free course. | Maintainer asked for a $1 monthly tip because the linked course is paid. |
 | [KEX-03/taskflow](https://github.com/KEX-03/taskflow) | [#82](https://github.com/KEX-03/taskflow/pull/82) | Error toast when loading/deleting tasks fails. | Reserved as a good-first-issue for newcomers; closed by maintainer. |
-| [medusajs/medusa](https://github.com/medusajs/medusa) | [#17401](https://github.com/medusajs/medusa/pull/17401) | Gift card creation in comma-decimal locales. | Guardrail bot closed it; the new issue [#17977](https://github.com/medusajs/medusa/issues/17977) was auto-flagged for the bot's own fix, so it can't be assigned to me. Maintainer pinged. |
+| [medusajs/medusa](https://github.com/medusajs/medusa) | [#17401](https://github.com/medusajs/medusa/pull/17401) | Gift card creation in comma-decimal locales. | Guardrail bot closed it; replacement issue [#17977](https://github.com/medusajs/medusa/issues/17977) was auto-flagged for the bot's own fix and closed after bot PR #17978 merged, so it could not be reassigned to me. Maintainer pinged. |
 | [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | [#23519](https://github.com/PrefectHQ/prefect/pull/23519) | Automation delete-all CLI change. | Superseded — equivalent fix merged in #23521. |
 | [tldr-pages/tldr](https://github.com/tldr-pages/tldr) | [#23099](https://github.com/tldr-pages/tldr/pull/23099), [#23100](https://github.com/tldr-pages/tldr/pull/23100) | Added `net` pages. | CLA not signed. |
 
@@ -93,7 +93,7 @@ These are not my PRs — I reviewed them. Listed for completeness because the wo
 
 | Repository | Issue | What I reported | Status |
 | --- | --- | --- | --- |
-| [medusajs/medusa](https://github.com/medusajs/medusa) | [#17977](https://github.com/medusajs/medusa/issues/17977) | Loyalty gift cards fail in comma-decimal locales. | Open — bot is attempting its own fix, so the issue can't be assigned to me. |
+| [medusajs/medusa](https://github.com/medusajs/medusa) | [#17977](https://github.com/medusajs/medusa/issues/17977) | Loyalty gift cards fail in comma-decimal locales. | Closed — maintainer closed it after bot PR [#17978](https://github.com/medusajs/medusa/pull/17978) merged; my PR #17401 remains closed/not merged. |
 | [facebook/react](https://github.com/facebook/react) | [#36996](https://github.com/facebook/react/issues/36996) | `useState` batching in React 19.2.x event handlers. | Closed as stale / unconfirmed. |
 | [facebook/react](https://github.com/facebook/react) | [#36997](https://github.com/facebook/react/issues/36997) | Bug report (empty template). | Closed as unconfirmed. |
 | [tldr-pages/tldr](https://github.com/tldr-pages/tldr) | [#23101](https://github.com/tldr-pages/tldr/issues/23101) | Page request: `pipx`. | Closed. |
