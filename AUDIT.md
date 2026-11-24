@@ -2,18 +2,18 @@
 
 Manually maintained by [@ayushnandi718-dev](https://github.com/ayushnandi718-dev). Last updated 2026-11-24.
 
-Covers all 34 authored PRs plus 3 reviews in repositories owned by other users — my own projects are intentionally excluded. The full "what I did" write-up is in [README.md](README.md).
+Covers all 35 authored PRs plus 3 reviews in repositories owned by other users — my own projects are intentionally excluded. The full "what I did" write-up is in [README.md](README.md).
 
 ## Summary
 
 | Status | PRs | Repositories |
 | --- | ---: | ---: |
 | Merged | 14 | 7 |
-| Open / in review | 14 | 13 |
+| Open / in review | 15 | 14 |
 | Closed without merge | 6 | 5 |
 | Reviews on others' PRs | 3 | 1 |
 | Issues opened in others' repos | 5 | 3 |
-| **Total** | **42** | **23** |
+| **Total** | **43** | **24** |
 
 The 5 issues authored in other people's repos are: medusa [#17977](https://github.com/medusajs/medusa/issues/17977) (closed after bot PR [#17978](https://github.com/medusajs/medusa/pull/17978) merged), facebook/react [#36996](https://github.com/facebook/react/issues/36996) and [#36997](https://github.com/facebook/react/issues/36997) (closed as stale/unconfirmed), and tldr [#23101](https://github.com/tldr-pages/tldr/issues/23101) and [#23102](https://github.com/tldr-pages/tldr/issues/23102) (closed page requests). No follow-up is possible on the closed ones; medusa is documented below.
 
@@ -46,5 +46,7 @@ A "✅" means the repository's contributor/credit files contain my handle or nam
 The remaining open PRs in [README.md](README.md) are awaiting maintainer review. On 2026-11-24, one-time review requests were posted on the eight that had no feedback: [SoterCare #2](https://github.com/SoterCare/awesome-student-resources/pull/2#issuecomment-7125268158), [bobeff #21](https://github.com/bobeff/programming-math-science/pull/21#issuecomment-7125268849), [lauragift21 #244](https://github.com/lauragift21/awesome-learning-resources/pull/244#issuecomment-7125269498), [GDGAhmedabad #407](https://github.com/GDGAhmedabad/Awesome-Learning-Resources/pull/407#issuecomment-7125270210), [shahednasser #889](https://github.com/shahednasser/awesome-resources/pull/889#issuecomment-7125270831), [LeetHub #255](https://github.com/arunbhardwaj/LeetHub-2.0/pull/255#issuecomment-7125271395), [esp32-ai #11](https://github.com/slvDev/esp32-ai/pull/11#issuecomment-7125272070), [esp32-ai #12](https://github.com/slvDev/esp32-ai/pull/12#issuecomment-7125272749). No repeat pings planned.
 
 New on 2026-11-24: [talk-transcripts #122](https://github.com/matthiasn/talk-transcripts/pull/122) was opened after claiming issue [#98](https://github.com/matthiasn/talk-transcripts/issues/98). It adds the *Thinking In Data* transcript generated from the linked talk's English auto-generated YouTube captions, because the InfoQ page has no public transcript text; the limitation is disclosed in the PR body. It is open and awaiting maintainer review, with no separate ping needed beyond the claim comment.
+
+Also new on 2026-11-24: [unslop-anything #110](https://github.com/erkamyaman/unslop-anything/pull/110) was opened after claiming issue [#107](https://github.com/erkamyaman/unslop-anything/issues/107). It extends the `sparkle-icon` rule to match quoted SF Symbols such as `sparkles.rectangle.stack` and `wand.and.sparkles`. CodeRabbit found two regressions across review rounds (derived `wand.and.stars` names and mixed-quote literals); both were fixed in `9c2b019` and `1a6ad4d`, with 71/71 tests passing and CodeRabbit + GitGuardian green at head `1a6ad4d`. It remains open and awaiting maintainer review.
 
 Credit requests remain unanswered on more-awesome #419 and refined-github #9788 (fregante's only comment is the original merge-time thanks). OrbitDine now lists the user in its Contributors sidebar — resolved. env-saaf confirmed the user is counted and queued for the README list. Prefect #24087 is fully green at head `61e12dd` (159 success, 4 skipped, 0 failures out of 163 checks) and now awaits maintainer review only.

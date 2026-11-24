@@ -2,7 +2,7 @@
 
 Hi, I'm **Ayush Nandi** ([@ayushnandi718-dev](https://github.com/ayushnandi718-dev)), also known as **rva.creates**. This repository is a shout-out board for every contribution I've made to **other people's** public repositories — authored pull requests (merged, in review, or closed), code reviews on other people's PRs, and issues I reported. My own projects are intentionally not listed here.
 
-**Snapshot:** 2026-11-24 · **34 authored pull requests + 3 reviews + 5 issues** · **23 external repositories** · 14 merged · 14 open · 6 closed without merge
+**Snapshot:** 2026-11-24 · **35 authored pull requests + 3 reviews + 5 issues** · **24 external repositories** · 14 merged · 15 open · 6 closed without merge
 
 > Entries are added manually and show their real status — nothing here is generated automatically. Contributor-credit checks are in [AUDIT.md](AUDIT.md).
 
@@ -50,13 +50,14 @@ For OrbitDine I shipped the full Next.js frontend (marketing, dashboard, auth, a
 | [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) | [#127060](https://github.com/firstcontributions/first-contributions/pull/127060) | Added my name to `Contributors.md` — my first open-source contribution. | 2026-10-21 |
 | [refined-github/refined-github](https://github.com/refined-github/refined-github) | [#9788](https://github.com/refined-github/refined-github/pull/9788) | Replaced outdated `.Layout-sidebar` class selectors. | 2026-07-10 |
 
-## Open contributions — in review (14)
+## Open contributions — in review (15)
 
 | Repository | PR | What I did | Status |
 | --- | --- | --- | --- |
 | [arunbhardwaj/LeetHub-2.0](https://github.com/arunbhardwaj/LeetHub-2.0) | [#255](https://github.com/arunbhardwaj/LeetHub-2.0/pull/255) | Multi-platform support, difficulty folders, custom commits and auto README. | Open — no maintainer feedback yet. |
 | [bobeff/programming-math-science](https://github.com/bobeff/programming-math-science) | [#21](https://github.com/bobeff/programming-math-science/pull/21) | Added "Git from the Inside Out" to Version control tools. | Open — no maintainer feedback yet. |
 | [e2b-dev/fragments](https://github.com/e2b-dev/fragments) | [#233](https://github.com/e2b-dev/fragments/pull/233) | Fix race condition in sandbox multi-file writes. | Open — awaiting review. |
+| [erkamyaman/unslop-anything](https://github.com/erkamyaman/unslop-anything) | [#110](https://github.com/erkamyaman/unslop-anything/pull/110) | Extended SwiftUI `sparkle-icon` detection to match quoted SF Symbols such as `sparkles.rectangle.stack` and `wand.and.sparkles`, with regression tests. | Open — CodeRabbit and GitGuardian passing at `1a6ad4d`; awaiting maintainer review. Claimed issue #107 first. |
 | [GDGAhmedabad/Awesome-Learning-Resources](https://github.com/GDGAhmedabad/Awesome-Learning-Resources) | [#407](https://github.com/GDGAhmedabad/Awesome-Learning-Resources/pull/407) | Added "The Rust Programming Language" official book. | Open — no maintainer feedback yet. |
 | [lauragift21/awesome-learning-resources](https://github.com/lauragift21/awesome-learning-resources) | [#244](https://github.com/lauragift21/awesome-learning-resources/pull/244) | Added official Go documentation to Golang resources. | Open — no maintainer feedback yet. |
 | [matthiasn/talk-transcripts](https://github.com/matthiasn/talk-transcripts) | [#122](https://github.com/matthiasn/talk-transcripts/pull/122) | Added a transcript of Stuart Sierra's *Thinking In Data* and linked it from the speaker index, closing issue #98. | Open — awaiting review; transcript generated from the talk's auto-generated captions because InfoQ has no public transcript text. |
