@@ -30,12 +30,6 @@ Named all 16 icon-only `v-btn`s, the native table row-action buttons in `CronTic
 
 [PR #43](https://github.com/TickerNet/TickerNet/pull/43) · merged after review.
 
-### RFC-correct `Retry-After` handling — Prefect #24087 (open)
-
-Concurrency slot acquisition could raise `ValueError`/`KeyError` on legal `Retry-After` values. I reused the client's `_parse_retry_after()` helper in all three service paths, added a 1-second fallback for malformed/missing headers in v2, preserved v1's deliberate abort for a genuinely missing header, and covered HTTP-date, malformed and missing headers with parametrized regressions.
-
-[PR #24087](https://github.com/PrefectHQ/prefect/pull/24087) · Type Checks and Pre-commit checks green; one unrelated timing-sensitive test flaked in CI, rerun requested.
-
 ### Rebuilding a frontend — OrbitDine #1–#4
 
 For OrbitDine I shipped the full Next.js frontend (marketing, dashboard, auth, admin, customer portal), removed the old backend, and fixed the production build by adding the missing Capacitor packages.
@@ -56,12 +50,6 @@ For OrbitDine I shipped the full Next.js frontend (marketing, dashboard, auth, a
 | [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) | [#127060](https://github.com/firstcontributions/first-contributions/pull/127060) | Added my name to `Contributors.md` — my first open-source contribution. | 2026-10-21 |
 | [refined-github/refined-github](https://github.com/refined-github/refined-github) | [#9788](https://github.com/refined-github/refined-github/pull/9788) | Replaced outdated `.Layout-sidebar` class selectors. | 2026-07-10 |
 
-## Currently in flight
-
-| Repository | PR | Status |
-| --- | --- | --- |
-| PrefectHQ/prefect | [#24087](https://github.com/PrefectHQ/prefect/pull/24087) | Open — pyright/ruff fixed and green; one unrelated flaky `TaskRunWaiter` timeout in a canonical test group, rerun requested from maintainers. |
-
 ## Credit status
 
 | Repository | Status | Evidence |
@@ -69,11 +57,10 @@ For OrbitDine I shipped the full Next.js frontend (marketing, dashboard, auth, a
 | TickerNet | ✅ Listed | `CONTRIBUTORS.md` names `rva.creates (@ayushnandi718-dev)`. |
 | firstcontributions | ✅ Listed | `Contributors.md` entry added by #127060. |
 | KEX-03/taskflow | ✅ Credited | Changelog thanks + GitHub contributors graph; maintainer confirmed no separate file is kept. |
-| env-saaf | ⏳ Requested | [Credit request](https://github.com/abhi478jeetur-rgb/env-saaf/pull/332#issuecomment-7124461106) with [attribution link](https://github.com/abhi478jeetur-rgb/env-saaf/commits?author=ayushnandi718-dev&since=2026-11-23&until=2026-11-24). |
+| env-saaf | ✅ Confirmed, queued | Maintainer [confirmed](https://github.com/abhi478jeetur-rgb/env-saaf/pull/332#issuecomment-7124877202) all three PRs are merged and I'm counted among contributors. The README list is updated in batches; my name is queued for the next docs pass. ([attribution link](https://github.com/abhi478jeetur-rgb/env-saaf/commits?author=ayushnandi718-dev&since=2026-11-23&until=2026-11-24)) |
 | shaurya-crypto/OrbitDine | ⏳ Requested | [Credit request](https://github.com/shaurya-crypto/OrbitDine/pull/4#issuecomment-7124532268). |
 | 0ex/more-awesome | ⏳ Requested | [Credit request](https://github.com/0ex/more-awesome/pull/419#issuecomment-7124532308). |
 | refined-github/refined-github | ⏳ Asked | [Polling comment](https://github.com/refined-github/refined-github/pull/9788#issuecomment-7124532326). |
-| PrefectHQ/prefect | — | No contributor list; GitHub's contributor graph will record the merged PR. |
 
 ## Keeping an eye on it
 
