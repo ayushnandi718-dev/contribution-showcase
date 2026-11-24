@@ -1,8 +1,8 @@
 # My Open-Source Contributions — rva.creates
 
-Hi, I'm **Ayush Nandi** ([@ayushnandi718-dev](https://github.com/ayushnandi718-dev)), also known as **rva.creates**. This repository is a shout-out board for every contribution I've made to **other people's** public repositories — authored pull requests (merged, in review, or closed) and code reviews on other people's PRs. My own projects are intentionally not listed here.
+Hi, I'm **Ayush Nandi** ([@ayushnandi718-dev](https://github.com/ayushnandi718-dev)), also known as **rva.creates**. This repository is a shout-out board for every contribution I've made to **other people's** public repositories — authored pull requests (merged, in review, or closed), code reviews on other people's PRs, and issues I reported. My own projects are intentionally not listed here.
 
-**Snapshot:** 2026-11-24 · **33 authored pull requests + 3 reviews** · **21 external repositories** · 14 merged · 13 open · 6 closed without merge
+**Snapshot:** 2026-11-24 · **33 authored pull requests + 3 reviews + 5 issues** · **22 external repositories** · 14 merged · 13 open · 6 closed without merge
 
 > Entries are added manually and show their real status — nothing here is generated automatically. Contributor-credit checks are in [AUDIT.md](AUDIT.md).
 
@@ -88,6 +88,16 @@ These are not my PRs — I reviewed them. Listed for completeness because the wo
 | [nteract/papermill](https://github.com/nteract/papermill) | [#865](https://github.com/nteract/papermill/pull/865) (by Br1an67) | ✅ Approved — nbformat minimum bump for NumPy 2.0. | 2026-07-08 |
 | [nteract/papermill](https://github.com/nteract/papermill) | [#890](https://github.com/nteract/papermill/pull/890) (by dhruvatr) | ✅ Approved — grammar fix in stale-PR notification. | 2026-07-08 |
 | [nteract/papermill](https://github.com/nteract/papermill) | [#892](https://github.com/nteract/papermill/pull/892) (by paranoa233) | 💬 Commented — copying parameter cell metadata. | 2026-07-08 |
+
+## Issues I opened in other people's repos (5)
+
+| Repository | Issue | What I reported | Status |
+| --- | --- | --- | --- |
+| [medusajs/medusa](https://github.com/medusajs/medusa) | [#17977](https://github.com/medusajs/medusa/issues/17977) | Loyalty gift cards fail in comma-decimal locales. | Open — bot is attempting its own fix, so the issue can't be assigned to me. |
+| [facebook/react](https://github.com/facebook/react) | [#36996](https://github.com/facebook/react/issues/36996) | `useState` batching in React 19.2.x event handlers. | Closed as stale / unconfirmed. |
+| [facebook/react](https://github.com/facebook/react) | [#36997](https://github.com/facebook/react/issues/36997) | Bug report (empty template). | Closed as unconfirmed. |
+| [tldr-pages/tldr](https://github.com/tldr-pages/tldr) | [#23101](https://github.com/tldr-pages/tldr/issues/23101) | Page request: `pipx`. | Closed. |
+| [tldr-pages/tldr](https://github.com/tldr-pages/tldr) | [#23102](https://github.com/tldr-pages/tldr/issues/23102) | Page request: `act`. | Closed. |
 
 ---
 

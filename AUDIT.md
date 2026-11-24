@@ -12,7 +12,10 @@ Covers all 33 authored PRs plus 3 reviews in repositories owned by other users â
 | Open / in review | 13 | 12 |
 | Closed without merge | 6 | 5 |
 | Reviews on others' PRs | 3 | 1 |
-| **Total** | **36** | **21** |
+| Issues opened in others' repos | 5 | 3 |
+| **Total** | **41** | **22** |
+
+The 5 issues authored in other people's repos are: medusa [#17977](https://github.com/medusajs/medusa/issues/17977) (open, blocked by bot automation), facebook/react [#36996](https://github.com/facebook/react/issues/36996) and [#36997](https://github.com/facebook/react/issues/36997) (closed as stale/unconfirmed), and tldr [#23101](https://github.com/tldr-pages/tldr/issues/23101) and [#23102](https://github.com/tldr-pages/tldr/issues/23102) (closed page requests). No follow-up is possible on the closed ones; medusa is documented below.
 
 The "Involves me" view also shows 3 PRs that are excluded by design: [TickerNet #41](https://github.com/TickerNet/TickerNet/pull/41) (maintainer's PR that credited me â€” used as evidence below, not my contribution) and two PRs by other contributors in my own repos (`TO-DO-LIST#1`, `Ayush-Nandi#2`).
 
