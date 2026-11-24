@@ -105,13 +105,13 @@ These are not my PRs — I reviewed them. Listed for completeness because the wo
 
 | Repository | Status | Evidence |
 | --- | --- | --- |
-| TickerNet | ✅ Listed | `CONTRIBUTORS.md` names `rva.creates (@ayushnandi718-dev)`. |
-| firstcontributions | ✅ Listed | `Contributors.md` entry added by #127060. |
-| KEX-03/taskflow | ✅ Credited | Changelog thanks + GitHub contributors graph; maintainer confirmed no separate file is kept. |
-| env-saaf | ✅ Confirmed, queued | Maintainer [confirmed](https://github.com/abhi478jeetur-rgb/env-saaf/pull/332#issuecomment-7124877202) all three PRs are merged and I'm counted among contributors; name queued for the next docs pass. |
-| shaurya-crypto/OrbitDine | ⏳ Requested | [Credit request](https://github.com/shaurya-crypto/OrbitDine/pull/4#issuecomment-7124532268). |
-| 0ex/more-awesome | ⏳ Requested | [Credit request](https://github.com/0ex/more-awesome/pull/419#issuecomment-7124532308). |
-| refined-github/refined-github | ⏳ Asked | [Polling comment](https://github.com/refined-github/refined-github/pull/9788#issuecomment-7124532326). |
+| [TickerNet/TickerNet](https://github.com/TickerNet/TickerNet) | ✅ Listed | `CONTRIBUTORS.md` names `rva.creates (@ayushnandi718-dev)`. |
+| [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) | ✅ Listed | `Contributors.md` entry added by #127060. |
+| [KEX-03/taskflow](https://github.com/KEX-03/taskflow) | ✅ Credited | Changelog thanks + GitHub contributors graph; maintainer confirmed no separate file is kept. |
+| [abhi478jeetur-rgb/env-saaf](https://github.com/abhi478jeetur-rgb/env-saaf) | ✅ Confirmed, queued | Maintainer [confirmed](https://github.com/abhi478jeetur-rgb/env-saaf/pull/332#issuecomment-7124877202) all three PRs are merged and I'm counted among contributors; name queued for the next docs pass. |
+| [shaurya-crypto/OrbitDine](https://github.com/shaurya-crypto/OrbitDine) | ⏳ Requested | [Credit request](https://github.com/shaurya-crypto/OrbitDine/pull/4#issuecomment-7124532268). |
+| [0ex/more-awesome](https://github.com/0ex/more-awesome) | ⏳ Requested | [Credit request](https://github.com/0ex/more-awesome/pull/419#issuecomment-7124532308). |
+| [refined-github/refined-github](https://github.com/refined-github/refined-github) | ⏳ Asked | [Polling comment](https://github.com/refined-github/refined-github/pull/9788#issuecomment-7124532326). |
 
 Details in [AUDIT.md](AUDIT.md).
 
