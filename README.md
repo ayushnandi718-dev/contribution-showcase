@@ -65,7 +65,9 @@ For OrbitDine I shipped the full Next.js frontend (marketing, dashboard, auth, a
 | [shahednasser/awesome-resources](https://github.com/shahednasser/awesome-resources) | [#889](https://github.com/shahednasser/awesome-resources/pull/889) | Added System Design Primer under System Design. | Open — no maintainer feedback yet. |
 | [shaurya-crypto/OrbitDine](https://github.com/shaurya-crypto/OrbitDine) | [#5](https://github.com/shaurya-crypto/OrbitDine/pull/5) | Revert of the Capacitor production-build fix. | Open — awaiting maintainer decision. |
 | [slvDev/esp32-ai](https://github.com/slvDev/esp32-ai) | [#11](https://github.com/slvDev/esp32-ai/pull/11), [#12](https://github.com/slvDev/esp32-ai/pull/12) | Verified model artifact downloader + gitignore docs; end-to-end reproducibility CI. | Open — no maintainer feedback yet. |
-| [SoterCare/awesome-student-resources](https://github.com/SoterCare/awesome-student-resources) | [#2](https://github.com/SoterCare/awesome-student-resources/pull/2) | Added Exercism to interview preparation. | Open — no maintainer feedback yet. |
+| [SoterCare/awesome-student-resources](https://github.com/SoterCare/awesome-student-resources) | [#2](https://github.com/SoterCare/awesome-student-resources/pull/2) | Added Exercism to interview preparation. | Open — one-time review request posted 2026-11-24. |
+
+One-time review requests were posted on 2026-11-24 on the eight open PRs that had no maintainer feedback (the awesome-list PRs, LeetHub #255, esp32-ai #11/#12).
 
 ## Closed without merge (6)
 
@@ -73,7 +75,7 @@ For OrbitDine I shipped the full Next.js frontend (marketing, dashboard, auth, a
 | --- | --- | --- | --- |
 | [academic/awesome-datascience](https://github.com/academic/awesome-datascience) | [#736](https://github.com/academic/awesome-datascience/pull/736) | Added Made With ML free course. | Maintainer asked for a $1 monthly tip because the linked course is paid. |
 | [KEX-03/taskflow](https://github.com/KEX-03/taskflow) | [#82](https://github.com/KEX-03/taskflow/pull/82) | Error toast when loading/deleting tasks fails. | Reserved as a good-first-issue for newcomers; closed by maintainer. |
-| [medusajs/medusa](https://github.com/medusajs/medusa) | [#17401](https://github.com/medusajs/medusa/pull/17401) | Gift card creation in comma-decimal locales. | Bot closed it for a missing linked issue; reopening in progress via [#17977](https://github.com/medusajs/medusa/issues/17977). |
+| [medusajs/medusa](https://github.com/medusajs/medusa) | [#17401](https://github.com/medusajs/medusa/pull/17401) | Gift card creation in comma-decimal locales. | Guardrail bot closed it; the new issue [#17977](https://github.com/medusajs/medusa/issues/17977) was auto-flagged for the bot's own fix, so it can't be assigned to me. Maintainer pinged. |
 | [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | [#23519](https://github.com/PrefectHQ/prefect/pull/23519) | Automation delete-all CLI change. | Superseded — equivalent fix merged in #23521. |
 | [tldr-pages/tldr](https://github.com/tldr-pages/tldr) | [#23099](https://github.com/tldr-pages/tldr/pull/23099), [#23100](https://github.com/tldr-pages/tldr/pull/23100) | Added `net` pages. | CLA not signed. |
 
