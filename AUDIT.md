@@ -2,18 +2,19 @@
 
 Manually maintained by [@ayushnandi718-dev](https://github.com/ayushnandi718-dev). Last updated 2026-11-25.
 
-Covers all 35 authored PRs plus 3 reviews in repositories owned by other users — my own projects are intentionally excluded. The full "what I did" write-up is in [README.md](README.md).
+Covers all 35 authored PRs, 3 reviews, 5 issues, and 2 accepted Q&A answers in repositories owned by other users — my own projects are intentionally excluded. The full "what I did" write-up is in [README.md](README.md).
 
 ## Summary
 
-| Status | PRs | Repositories |
+| Status | Items | Repositories |
 | --- | ---: | ---: |
 | Merged | 15 | 8 |
-| Open / in review | 14 | 13 |
-| Closed without merge | 6 | 5 |
+| Open / in review | 13 | 12 |
+| Closed without merge | 7 | 5 |
 | Reviews on others' PRs | 3 | 1 |
 | Issues opened in others' repos | 5 | 3 |
-| **Total** | **43** | **24** |
+| Accepted Q&A answers | 2 | 2 |
+| **Total** | **45** | **26** |
 
 The 5 issues authored in other people's repos are: medusa [#17977](https://github.com/medusajs/medusa/issues/17977) (closed after bot PR [#17978](https://github.com/medusajs/medusa/pull/17978) merged), facebook/react [#36996](https://github.com/facebook/react/issues/36996) and [#36997](https://github.com/facebook/react/issues/36997) (closed as stale/unconfirmed), and tldr [#23101](https://github.com/tldr-pages/tldr/issues/23101) and [#23102](https://github.com/tldr-pages/tldr/issues/23102) (closed page requests). No follow-up is possible on the closed ones; medusa is documented below.
 
@@ -39,10 +40,11 @@ A "✅" means the repository's contributor/credit files contain my handle or nam
 | Repository | PR | Blocker |
 | --- | --- | --- |
 | [medusajs/medusa](https://github.com/medusajs/medusa) | #17401 | Guardrail bot closed it for a missing linked issue. I opened [#17977](https://github.com/medusajs/medusa/issues/17977), asked for assignment and relinked the PR, but the bot flagged the issue for its own automatic fix; those issues are never assigned to contributors. [Final maintainer ping](https://github.com/medusajs/medusa/pull/17401#issuecomment-7125287705) posted. The issue was [closed by `shahednasser`](https://github.com/medusajs/medusa/issues/17977#event-37113506776) at 2026-11-24T09:51:44Z after bot PR [#17978](https://github.com/medusajs/medusa/pull/17978) merged; #17401 remains closed/not merged. |
-| [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | #24087 | No code blocker: the unrelated flaky `TaskRunWaiter` timeout did not recur after the branch retrigger. All 163 checks are green (159 success, 4 skipped); awaiting maintainer review only. [Final CI update](https://github.com/PrefectHQ/prefect/pull/24087#issuecomment-7126143033). |
 | [academic/awesome-datascience](https://github.com/academic/awesome-datascience) | #736 | Maintainer requires a $1 monthly tip for the paid course. |
 | [tldr-pages/tldr](https://github.com/tldr-pages/tldr) | #23099, #23100 | CLA not signed. |
 | [KEX-03/taskflow](https://github.com/KEX-03/taskflow) | #82 | Reserved as good-first-issue; closed by maintainer (do not touch). |
+
+Prefect #24087 is no longer awaiting action: `desertaxle` [closed it](https://github.com/PrefectHQ/prefect/pull/24087#issuecomment-7167036150) on 2026-11-25T15:33:50Z with "Closing as superseded by https://github.com/PrefectHQ/prefect/pull/24086". That maintainer bot PR merged at 2026-11-25T15:33:16Z. My PR had been fully green at head `61e12dd` (159 success, 4 skipped, 0 failures out of 163 checks) with a clean Codex review, but no further code action is possible.
 
 The remaining open PRs in [README.md](README.md) are awaiting maintainer review. On 2026-11-24, one-time review requests were posted on the eight that had no feedback: [SoterCare #2](https://github.com/SoterCare/awesome-student-resources/pull/2#issuecomment-7125268158), [bobeff #21](https://github.com/bobeff/programming-math-science/pull/21#issuecomment-7125268849), [lauragift21 #244](https://github.com/lauragift21/awesome-learning-resources/pull/244#issuecomment-7125269498), [GDGAhmedabad #407](https://github.com/GDGAhmedabad/Awesome-Learning-Resources/pull/407#issuecomment-7125270210), [shahednasser #889](https://github.com/shahednasser/awesome-resources/pull/889#issuecomment-7125270831), [LeetHub #255](https://github.com/arunbhardwaj/LeetHub-2.0/pull/255#issuecomment-7125271395), [esp32-ai #11](https://github.com/slvDev/esp32-ai/pull/11#issuecomment-7125272070), [esp32-ai #12](https://github.com/slvDev/esp32-ai/pull/12#issuecomment-7125272749). No repeat pings planned.
 
@@ -50,4 +52,13 @@ New on 2026-11-24: [talk-transcripts #122](https://github.com/matthiasn/talk-tra
 
 Also new on 2026-11-24: [unslop-anything #110](https://github.com/erkamyaman/unslop-anything/pull/110) was opened after claiming issue [#107](https://github.com/erkamyaman/unslop-anything/issues/107) and was **merged on 2026-11-24T16:44:19Z** as squash commit `972ead5`. It extends the `sparkle-icon` rule to match quoted SF Symbols such as `sparkles.rectangle.stack` and `wand.and.sparkles`. CodeRabbit found several regressions across review rounds — derived `wand.and.stars` names, mixed-quote literals, JSX prose apostrophes, nested Swift interpolation, and Swift raw strings — fixed in `9c2b019`, `1a6ad4d`, `c0cb994`, and `f9e882f`. Locally, `npm test` passes 74/74 and the research pipeline passes 21/21; GitGuardian passes. The five failed `Test` runs on the fork branch did **not** run any job: GitHub reported "This workflow run required approval but was not approved before it expired." The squash-merge run on `main` passed the identical workflow in 16s, and both the detector and test changes are present on `main`. The [contributors graph](https://github.com/erkamyaman/unslop-anything/graphs/contributors?from=2026-08-21T18%3A30%3A00.000Z) now lists `ayushnandi718-dev` with 1 contribution from that squash commit.
 
-Credit requests remain unanswered on more-awesome #419 only. refined-github #9788 is now resolved through the contributors graph (fregante's only comment is the original merge-time thanks). OrbitDine and unslop-anything also list the user in their contributor records — resolved. env-saaf confirmed the user is counted and queued for the README list. Prefect #24087 is fully green at head `61e12dd` (159 success, 4 skipped, 0 failures out of 163 checks) and now awaits maintainer review only.
+## Accepted Q&A answers
+
+| Discussion | My accepted answer | Accepted at |
+| --- | --- | --- |
+| [open-telemetry/opentelemetry-js#7384](https://github.com/open-telemetry/opentelemetry-js/discussions/7384) — Open Telemetry and NextJS Partial Prefetching | [Answer](https://github.com/open-telemetry/opentelemetry-js/discussions/7384#discussioncomment-19857545) | 2026-11-24T13:14:58Z |
+| [quartznet/quartznet#4443](https://github.com/quartznet/quartznet/discussions/4443) — Risks of changing `JOB_DATA` from BLOB to MEDIUMBLOB | [Answer](https://github.com/quartznet/quartznet/discussions/4443#discussioncomment-19862266) | 2026-11-25T08:14:34Z |
+
+These two accepted answers earned [Galaxy Brain](https://github.com/ayushnandi718-dev?tab=achievements). The other answers I posted (FinanceOS #3, tailwind-variants #299, Scalar #5463, Prisma #25111, goose #13791, and RF4 simulator #397) remain unaccepted and are not counted.
+
+Credit requests remain unanswered on more-awesome #419 only. refined-github #9788 is now resolved through the contributors graph (fregante's only comment is the original merge-time thanks). OrbitDine and unslop-anything also list the user in their contributor records — resolved. env-saaf confirmed the user is counted and queued for the README list. Prefect #24087 was closed as superseded by bot PR #24086 on 2026-11-25; no further action.

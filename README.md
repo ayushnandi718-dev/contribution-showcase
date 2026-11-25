@@ -1,8 +1,10 @@
 # My Open-Source Contributions — rva.creates
 
-Hi, I'm **Ayush Nandi** ([@ayushnandi718-dev](https://github.com/ayushnandi718-dev)), also known as **rva.creates**. This repository is a shout-out board for every contribution I've made to **other people's** public repositories — authored pull requests (merged, in review, or closed), code reviews on other people's PRs, and issues I reported. My own projects are intentionally not listed here.
+Hi, I'm **Ayush Nandi** ([@ayushnandi718-dev](https://github.com/ayushnandi718-dev)), also known as **rva.creates**. This repository is a shout-out board for every contribution I've made to **other people's** public repositories — authored pull requests (merged, in review, or closed), code reviews on other people's PRs, issues I reported, and accepted answers in other people's GitHub Discussions. My own projects are intentionally not listed here.
 
-**Snapshot:** 2026-11-25 · **35 authored pull requests + 3 reviews + 5 issues** · **24 external repositories** · 15 merged · 14 open · 6 closed without merge
+**Snapshot:** 2026-11-25 · **35 authored pull requests + 3 reviews + 5 issues + 2 accepted Q&A answers** · **26 external repositories** · 15 merged · 13 open · 7 closed without merge
+
+[GitHub achievements](https://github.com/ayushnandi718-dev?tab=achievements): Pull Shark ×2, Pair Extraordinaire, YOLO, Quickdraw, and **Galaxy Brain** — earned by two accepted Q&A answers.
 
 > Entries are added manually and show their real status — nothing here is generated automatically. Contributor-credit checks are in [AUDIT.md](AUDIT.md).
 
@@ -38,7 +40,7 @@ For OrbitDine I shipped the full Next.js frontend (marketing, dashboard, auth, a
 
 ---
 
-## Merged contributions (14)
+## Merged contributions (15)
 
 | Repository | PR(s) | What I did | Date |
 | --- | --- | --- | --- |
@@ -49,20 +51,19 @@ For OrbitDine I shipped the full Next.js frontend (marketing, dashboard, auth, a
 | [0ex/more-awesome](https://github.com/0ex/more-awesome) | [#419](https://github.com/0ex/more-awesome/pull/419) | Added System Design entry under Back-End Development. | 2026-10-24 |
 | [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) | [#127060](https://github.com/firstcontributions/first-contributions/pull/127060) | Added my name to `Contributors.md` — my first open-source contribution. | 2026-10-21 |
 | [refined-github/refined-github](https://github.com/refined-github/refined-github) | [#9788](https://github.com/refined-github/refined-github/pull/9788) | Replaced outdated `.Layout-sidebar` class selectors. | 2026-07-10 |
+| [erkamyaman/unslop-anything](https://github.com/erkamyaman/unslop-anything) | [#110](https://github.com/erkamyaman/unslop-anything/pull/110) | Extended SwiftUI `sparkle-icon` detection to match quoted SF Symbols such as `sparkles.rectangle.stack` and `wand.and.sparkles`, with regression tests. | 2026-11-24 |
 
-## Open contributions — in review (15)
+## Open contributions — in review (13)
 
 | Repository | PR | What I did | Status |
 | --- | --- | --- | --- |
 | [arunbhardwaj/LeetHub-2.0](https://github.com/arunbhardwaj/LeetHub-2.0) | [#255](https://github.com/arunbhardwaj/LeetHub-2.0/pull/255) | Multi-platform support, difficulty folders, custom commits and auto README. | Open — no maintainer feedback yet. |
 | [bobeff/programming-math-science](https://github.com/bobeff/programming-math-science) | [#21](https://github.com/bobeff/programming-math-science/pull/21) | Added "Git from the Inside Out" to Version control tools. | Open — no maintainer feedback yet. |
 | [e2b-dev/fragments](https://github.com/e2b-dev/fragments) | [#233](https://github.com/e2b-dev/fragments/pull/233) | Fix race condition in sandbox multi-file writes. | Open — awaiting review. |
-| [erkamyaman/unslop-anything](https://github.com/erkamyaman/unslop-anything) | [#110](https://github.com/erkamyaman/unslop-anything/pull/110) | Extended SwiftUI `sparkle-icon` detection to match quoted SF Symbols such as `sparkles.rectangle.stack` and `wand.and.sparkles`, with regression tests. | Merged — all CodeRabbit findings addressed through `f9e882f` (74/74 root tests, 21/21 research tests locally); fork-PR `Test` runs expired awaiting approval, but the squash-merge run on `main` passed. [Contributors graph](https://github.com/erkamyaman/unslop-anything/graphs/contributors?from=2026-08-21T18%3A30%3A00.000Z) confirms credit (1 squash commit). Claimed issue #107 first. |
 | [GDGAhmedabad/Awesome-Learning-Resources](https://github.com/GDGAhmedabad/Awesome-Learning-Resources) | [#407](https://github.com/GDGAhmedabad/Awesome-Learning-Resources/pull/407) | Added "The Rust Programming Language" official book. | Open — no maintainer feedback yet. |
 | [lauragift21/awesome-learning-resources](https://github.com/lauragift21/awesome-learning-resources) | [#244](https://github.com/lauragift21/awesome-learning-resources/pull/244) | Added official Go documentation to Golang resources. | Open — no maintainer feedback yet. |
 | [matthiasn/talk-transcripts](https://github.com/matthiasn/talk-transcripts) | [#122](https://github.com/matthiasn/talk-transcripts/pull/122) | Added a transcript of Stuart Sierra's *Thinking In Data* and linked it from the speaker index, closing issue #98. | Open — awaiting review; transcript generated from the talk's auto-generated captions because InfoQ has no public transcript text. |
 | [nteract/papermill](https://github.com/nteract/papermill) | [#895](https://github.com/nteract/papermill/pull/895) | Added citation instructions for academic papers. | Open — awaiting review. |
-| [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | [#24087](https://github.com/PrefectHQ/prefect/pull/24087) | RFC-correct `Retry-After` handling in concurrency slot acquisition. | Open — all checks green (159 success, 4 skipped); awaiting maintainer review. |
 | [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | [#11115](https://github.com/shadcn-ui/ui/pull/11115) | Sidebar: exclude Shift and Alt modifiers from keyboard shortcut. | Open — awaiting review. |
 | [shahednasser/awesome-resources](https://github.com/shahednasser/awesome-resources) | [#889](https://github.com/shahednasser/awesome-resources/pull/889) | Added System Design Primer under System Design. | Open — no maintainer feedback yet. |
 | [shaurya-crypto/OrbitDine](https://github.com/shaurya-crypto/OrbitDine) | [#5](https://github.com/shaurya-crypto/OrbitDine/pull/5) | Revert of the Capacitor production-build fix. | Open — awaiting maintainer decision. |
@@ -71,7 +72,7 @@ For OrbitDine I shipped the full Next.js frontend (marketing, dashboard, auth, a
 
 One-time review requests were posted on 2026-11-24 on the eight open PRs that had no maintainer feedback (the awesome-list PRs, LeetHub #255, esp32-ai #11/#12). Talk-transcripts #122 was not pinged separately: it directly fulfills the issue I claimed in #98.
 
-## Closed without merge (6)
+## Closed without merge (7)
 
 | Repository | PR | What I did | Why it closed |
 | --- | --- | --- | --- |
@@ -79,6 +80,7 @@ One-time review requests were posted on 2026-11-24 on the eight open PRs that ha
 | [KEX-03/taskflow](https://github.com/KEX-03/taskflow) | [#82](https://github.com/KEX-03/taskflow/pull/82) | Error toast when loading/deleting tasks fails. | Reserved as a good-first-issue for newcomers; closed by maintainer. |
 | [medusajs/medusa](https://github.com/medusajs/medusa) | [#17401](https://github.com/medusajs/medusa/pull/17401) | Gift card creation in comma-decimal locales. | Guardrail bot closed it; replacement issue [#17977](https://github.com/medusajs/medusa/issues/17977) was auto-flagged for the bot's own fix and closed after bot PR #17978 merged, so it could not be reassigned to me. Maintainer pinged. |
 | [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | [#23519](https://github.com/PrefectHQ/prefect/pull/23519) | Automation delete-all CLI change. | Superseded — equivalent fix merged in #23521. |
+| [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | [#24087](https://github.com/PrefectHQ/prefect/pull/24087) | RFC-correct `Retry-After` handling in concurrency slot acquisition. | Closed by `desertaxle` on 2026-11-25 as superseded by bot PR [#24086](https://github.com/PrefectHQ/prefect/pull/24086), which merged the same day; all 163 checks had been green at head `61e12dd`. |
 | [tldr-pages/tldr](https://github.com/tldr-pages/tldr) | [#23099](https://github.com/tldr-pages/tldr/pull/23099), [#23100](https://github.com/tldr-pages/tldr/pull/23100) | Added `net` pages. | CLA not signed. |
 
 ## Reviews on other people's PRs (3)
@@ -100,6 +102,15 @@ These are not my PRs — I reviewed them. Listed for completeness because the wo
 | [facebook/react](https://github.com/facebook/react) | [#36997](https://github.com/facebook/react/issues/36997) | Bug report (empty template). | Closed as unconfirmed. |
 | [tldr-pages/tldr](https://github.com/tldr-pages/tldr) | [#23101](https://github.com/tldr-pages/tldr/issues/23101) | Page request: `pipx`. | Closed. |
 | [tldr-pages/tldr](https://github.com/tldr-pages/tldr) | [#23102](https://github.com/tldr-pages/tldr/issues/23102) | Page request: `act`. | Closed. |
+
+## Accepted Q&A answers (2)
+
+| Discussion | My accepted answer | Accepted at |
+| --- | --- | --- |
+| [open-telemetry/opentelemetry-js#7384](https://github.com/open-telemetry/opentelemetry-js/discussions/7384) — Open Telemetry and NextJS Partial Prefetching | [Answer](https://github.com/open-telemetry/opentelemetry-js/discussions/7384#discussioncomment-19857545) | 2026-11-24 |
+| [quartznet/quartznet#4443](https://github.com/quartznet/quartznet/discussions/4443) — Risks of changing `JOB_DATA` from BLOB to MEDIUMBLOB | [Answer](https://github.com/quartznet/quartznet/discussions/4443#discussioncomment-19862266) | 2026-11-25 |
+
+These two accepted answers earned the [Galaxy Brain badge](https://github.com/ayushnandi718-dev?tab=achievements). Other answers I posted are still unaccepted and are not counted here.
 
 ---
 
