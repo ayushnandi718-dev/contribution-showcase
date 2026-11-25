@@ -112,8 +112,8 @@ These are not my PRs — I reviewed them. Listed for completeness because the wo
 | [KEX-03/taskflow](https://github.com/KEX-03/taskflow) | ✅ Credited | Changelog thanks + GitHub contributors graph; maintainer confirmed no separate file is kept. |
 | [abhi478jeetur-rgb/env-saaf](https://github.com/abhi478jeetur-rgb/env-saaf) | ✅ Confirmed, queued | Maintainer [confirmed](https://github.com/abhi478jeetur-rgb/env-saaf/pull/332#issuecomment-7124877202) all three PRs are merged and I'm counted among contributors; name queued for the next docs pass. |
 | [shaurya-crypto/OrbitDine](https://github.com/shaurya-crypto/OrbitDine) | ✅ Listed | The repo's Contributors sidebar lists `shaurya-crypto` and `ayushnandi718-dev` (verified 2026-11-24); [credit request](https://github.com/shaurya-crypto/OrbitDine/pull/4#issuecomment-7124532268) is now resolved. |
-| [0ex/more-awesome](https://github.com/0ex/more-awesome) | ⏳ Requested | [Credit request](https://github.com/0ex/more-awesome/pull/419#issuecomment-7124532308). |
-| [refined-github/refined-github](https://github.com/refined-github/refined-github) | ⏳ Asked | [Polling comment](https://github.com/refined-github/refined-github/pull/9788#issuecomment-7124532326). |
+| [0ex/more-awesome](https://github.com/0ex/more-awesome) | ⏳ Requested | [Credit request](https://github.com/0ex/more-awesome/pull/419#issuecomment-7124532308). PR merged 2026-10-24, but the merge commit is authored by the maintainer and the repo has no credit file, so the graph doesn't attribute it to me. |
+| [refined-github/refined-github](https://github.com/refined-github/refined-github) | ✅ Graph credit | [#9788](https://github.com/refined-github/refined-github/pull/9788) merged 2026-07-10; [contributors graph](https://github.com/refined-github/refined-github/graphs/contributors) lists `ayushnandi718-dev` with 1 contribution (commit `c7ef181` authored by me). |
 
 Details in [AUDIT.md](AUDIT.md).
 
