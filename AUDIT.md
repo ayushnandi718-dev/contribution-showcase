@@ -1,8 +1,8 @@
 # Contribution credit audit
 
-Manually maintained by [@ayushnandi718-dev](https://github.com/ayushnandi718-dev). Last updated 2026-11-25.
+Manually maintained by [@ayushnandi718-dev](https://github.com/ayushnandi718-dev). Last updated 2026-11-26.
 
-Covers all 35 authored PRs, 3 reviews, 5 issues, and 2 accepted Q&A answers in repositories owned by other users — my own projects are intentionally excluded. The full "what I did" write-up is in [README.md](README.md).
+Covers all 35 authored PRs, 3 reviews, 5 issues, and 2 Q&A answers that were accepted when Galaxy Brain was earned in repositories owned by other users — my own projects are intentionally excluded. The full "what I did" write-up is in [README.md](README.md).
 
 ## Summary
 
@@ -13,7 +13,7 @@ Covers all 35 authored PRs, 3 reviews, 5 issues, and 2 accepted Q&A answers in r
 | Closed without merge | 7 | 5 |
 | Reviews on others' PRs | 3 | 1 |
 | Issues opened in others' repos | 5 | 3 |
-| Accepted Q&A answers | 2 | 2 |
+| Answers accepted at badge time | 2 | 2 |
 | **Total** | **45** | **26** |
 
 The 5 issues authored in other people's repos are: medusa [#17977](https://github.com/medusajs/medusa/issues/17977) (closed after bot PR [#17978](https://github.com/medusajs/medusa/pull/17978) merged), facebook/react [#36996](https://github.com/facebook/react/issues/36996) and [#36997](https://github.com/facebook/react/issues/36997) (closed as stale/unconfirmed), and tldr [#23101](https://github.com/tldr-pages/tldr/issues/23101) and [#23102](https://github.com/tldr-pages/tldr/issues/23102) (closed page requests). No follow-up is possible on the closed ones; medusa is documented below.
@@ -52,13 +52,13 @@ New on 2026-11-24: [talk-transcripts #122](https://github.com/matthiasn/talk-tra
 
 Also new on 2026-11-24: [unslop-anything #110](https://github.com/erkamyaman/unslop-anything/pull/110) was opened after claiming issue [#107](https://github.com/erkamyaman/unslop-anything/issues/107) and was **merged on 2026-11-24T16:44:19Z** as squash commit `972ead5`. It extends the `sparkle-icon` rule to match quoted SF Symbols such as `sparkles.rectangle.stack` and `wand.and.sparkles`. CodeRabbit found several regressions across review rounds — derived `wand.and.stars` names, mixed-quote literals, JSX prose apostrophes, nested Swift interpolation, and Swift raw strings — fixed in `9c2b019`, `1a6ad4d`, `c0cb994`, and `f9e882f`. Locally, `npm test` passes 74/74 and the research pipeline passes 21/21; GitGuardian passes. The five failed `Test` runs on the fork branch did **not** run any job: GitHub reported "This workflow run required approval but was not approved before it expired." The squash-merge run on `main` passed the identical workflow in 16s, and both the detector and test changes are present on `main`. The [contributors graph](https://github.com/erkamyaman/unslop-anything/graphs/contributors?from=2026-08-21T18%3A30%3A00.000Z) now lists `ayushnandi718-dev` with 1 contribution from that squash commit.
 
-## Accepted Q&A answers
+## Q&A answers accepted at badge time
 
-| Discussion | My accepted answer | Accepted at |
-| --- | --- | --- |
-| [open-telemetry/opentelemetry-js#7384](https://github.com/open-telemetry/opentelemetry-js/discussions/7384) — Open Telemetry and NextJS Partial Prefetching | [Answer](https://github.com/open-telemetry/opentelemetry-js/discussions/7384#discussioncomment-19857545) | 2026-11-24T13:14:58Z |
-| [quartznet/quartznet#4443](https://github.com/quartznet/quartznet/discussions/4443) — Risks of changing `JOB_DATA` from BLOB to MEDIUMBLOB | [Answer](https://github.com/quartznet/quartznet/discussions/4443#discussioncomment-19862266) | 2026-11-25T08:14:34Z |
+| Discussion | My answer | Accepted at | Current state |
+| --- | --- | --- | --- |
+| [open-telemetry/opentelemetry-js#7384](https://github.com/open-telemetry/opentelemetry-js/discussions/7384) — Open Telemetry and NextJS Partial Prefetching | [Answer](https://github.com/open-telemetry/opentelemetry-js/discussions/7384#discussioncomment-19857545) | 2026-11-24T13:14:58Z | ✅ Still accepted (`isAnswer=true`). |
+| [quartznet/quartznet#4443](https://github.com/quartznet/quartznet/discussions/4443) — Risks of changing `JOB_DATA` from BLOB to MEDIUMBLOB | [Answer](https://github.com/quartznet/quartznet/discussions/4443#discussioncomment-19862266) | 2026-11-25T08:14:34Z | ⚠️ No chosen answer now; verified unaccepted 2026-11-26. |
 
-These two accepted answers earned [Galaxy Brain](https://github.com/ayushnandi718-dev?tab=achievements). The other answers I posted (FinanceOS #3, tailwind-variants #299, Scalar #5463, Prisma #25111, goose #13791, and RF4 simulator #397) remain unaccepted and are not counted.
+Both answers were accepted when [Galaxy Brain](https://github.com/ayushnandi718-dev?tab=achievements) was earned, so the badge remains. On 2026-11-26T07:57:33Z, discussion author `birgerj` asked maintainer `@lahma` whether the smaller MySQL `BLOB` was deliberate and said they would prepare a PR with a reference to this discussion. The acceptance was gone on recheck; I did not reping. The other answers I posted (FinanceOS #3, tailwind-variants #299, Scalar #5463, Prisma #25111, goose #13791, and RF4 simulator #397) remain unaccepted and are not counted.
 
 Credit requests remain unanswered on more-awesome #419 only. refined-github #9788 is now resolved through the contributors graph (fregante's only comment is the original merge-time thanks). OrbitDine and unslop-anything also list the user in their contributor records — resolved. env-saaf confirmed the user is counted and queued for the README list. Prefect #24087 was closed as superseded by bot PR #24086 on 2026-11-25; no further action.

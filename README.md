@@ -2,9 +2,9 @@
 
 Hi, I'm **Ayush Nandi** ([@ayushnandi718-dev](https://github.com/ayushnandi718-dev)), also known as **rva.creates**. This repository is a shout-out board for every contribution I've made to **other people's** public repositories — authored pull requests (merged, in review, or closed), code reviews on other people's PRs, issues I reported, and accepted answers in other people's GitHub Discussions. My own projects are intentionally not listed here.
 
-**Snapshot:** 2026-11-25 · **35 authored pull requests + 3 reviews + 5 issues + 2 accepted Q&A answers** · **26 external repositories** · 15 merged · 13 open · 7 closed without merge
+**Snapshot:** 2026-11-26 · **35 authored pull requests + 3 reviews + 5 issues + 2 answers accepted at badge time (1 currently marked)** · **26 external repositories** · 15 merged · 13 open · 7 closed without merge
 
-[GitHub achievements](https://github.com/ayushnandi718-dev?tab=achievements): Pull Shark ×2, Pair Extraordinaire, YOLO, Quickdraw, and **Galaxy Brain** — earned by two accepted Q&A answers.
+[GitHub achievements](https://github.com/ayushnandi718-dev?tab=achievements): Pull Shark ×2, Pair Extraordinaire, YOLO, Quickdraw, and **Galaxy Brain** — earned when two Q&A answers were accepted on 2026-11-24/25. One is still marked accepted; the Quartz answer was later unmarked but the badge remains.
 
 > Entries are added manually and show their real status — nothing here is generated automatically. Contributor-credit checks are in [AUDIT.md](AUDIT.md).
 
@@ -103,14 +103,14 @@ These are not my PRs — I reviewed them. Listed for completeness because the wo
 | [tldr-pages/tldr](https://github.com/tldr-pages/tldr) | [#23101](https://github.com/tldr-pages/tldr/issues/23101) | Page request: `pipx`. | Closed. |
 | [tldr-pages/tldr](https://github.com/tldr-pages/tldr) | [#23102](https://github.com/tldr-pages/tldr/issues/23102) | Page request: `act`. | Closed. |
 
-## Accepted Q&A answers (2)
+## Q&A answers accepted at badge time (2)
 
-| Discussion | My accepted answer | Accepted at |
-| --- | --- | --- |
-| [open-telemetry/opentelemetry-js#7384](https://github.com/open-telemetry/opentelemetry-js/discussions/7384) — Open Telemetry and NextJS Partial Prefetching | [Answer](https://github.com/open-telemetry/opentelemetry-js/discussions/7384#discussioncomment-19857545) | 2026-11-24 |
-| [quartznet/quartznet#4443](https://github.com/quartznet/quartznet/discussions/4443) — Risks of changing `JOB_DATA` from BLOB to MEDIUMBLOB | [Answer](https://github.com/quartznet/quartznet/discussions/4443#discussioncomment-19862266) | 2026-11-25 |
+| Discussion | My answer | Accepted at | Current state |
+| --- | --- | --- | --- |
+| [open-telemetry/opentelemetry-js#7384](https://github.com/open-telemetry/opentelemetry-js/discussions/7384) — Open Telemetry and NextJS Partial Prefetching | [Answer](https://github.com/open-telemetry/opentelemetry-js/discussions/7384#discussioncomment-19857545) | 2026-11-24 | ✅ Still accepted |
+| [quartznet/quartznet#4443](https://github.com/quartznet/quartznet/discussions/4443) — Risks of changing `JOB_DATA` from BLOB to MEDIUMBLOB | [Answer](https://github.com/quartznet/quartznet/discussions/4443#discussioncomment-19862266) | 2026-11-25 | ⚠️ No answer currently marked; see note below |
 
-These two accepted answers earned the [Galaxy Brain badge](https://github.com/ayushnandi718-dev?tab=achievements). Other answers I posted are still unaccepted and are not counted here.
+Both answers were accepted when the [Galaxy Brain badge](https://github.com/ayushnandi718-dev?tab=achievements) was earned. On 2026-11-26 the Quartz author asked maintainer `@lahma` for an opinion and said they would prepare a schema PR; the discussion no longer shows a chosen answer, but the earned badge remains. I have not repinged the thread. Other answers I posted are still unaccepted and are not counted here.
 
 ---
 
